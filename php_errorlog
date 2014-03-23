@@ -1,0 +1,7 @@
+[06-Jan-2014 15:45:30 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PHPExcel_Reader_Exception' with message 'Could not open ../generated.xlsx for reading! File does not exist.' in /www/kickass.bg/burnout/root/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /www/kickass.bg/burnout/root/Classes/PHPExcel/IOFactory.php(268): PHPExcel_Reader_Excel2007->canRead('../generated.xl...')
+#1 /www/kickass.bg/burnout/root/Classes/PHPExcel/IOFactory.php(191): PHPExcel_IOFactory::createReaderForFile('../generated.xl...')
+#2 /www/kickass.bg/burnout/root/poll.php(41): PHPExcel_IOFactory::load('../generated.xl...')
+#3 {main}
+  thrown in /www/kickass.bg/burnout/root/Classes/PHPExcel/Reader/Excel2007.php on line 82

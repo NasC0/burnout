@@ -1,0 +1,168 @@
+html, body, div, fieldset, span, form, input, legend, label {
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+	color: #333333;
+}
+
+form {
+	width:80%; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.header-wrap {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-link {
+	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color:#9dce2c;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #689324;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.button-link:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color:#8cb82b;
+}.button-link:active {
+	position:relative;
+	top:1px;
+}
+
+.index-welcome {
+	background: #63b8ee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #63b8ee 0%, #468ccf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#63b8ee), color-stop(100%,#468ccf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #63b8ee 0%,#468ccf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #63b8ee 0%,#468ccf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #63b8ee 0%,#468ccf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #63b8ee 0%,#468ccf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b8ee', endColorstr='#468ccf',GradientType=0 ); /* IE6-9 */
+
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.index-welcome img {
+	display: block;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.index-welcome p {
+	text-indent: 20px;
+}
+
+.field-wrapper {
+	font-size: 15px;
+	width: 80%;
+	margin-left: auto; 
+	margin-right: auto;
+	border-radius: 5px; 
+	padding: 5px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.inside-field-wrap-first {
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width:70%; 
+	float: left;
+}
+
+.inside-field-wrap-second {
+	line-height: 25px;
+	float: right;
+	width:29%; 
+	font-size: 13px;
+}
+
+.inside-field-wrap-third {
+	width: 20%;
+	text-align: right;
+	float:left;
+}
+
+.inside-field-wrap-third input {
+	vertical-align: middle;
+	margin-right:0;
+}
+
+.inside-field-wrap-third label {
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.scale-helper {
+	font-size: 15px;
+	position: absolute;
+	width: 70%; 
+	height: 50px; 
+	top: 5px;
+	left: -175px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scale-helper-div {
+	width:19%; 
+	float:left; 
+	padding: 5px;
+}
+
+.scale-helper-span {
+	display: block; 
+	text-align: center;
+}
+
+.errorForLabel {
+	border: 1px solid red;
+	border-radius: 5px;
+}
