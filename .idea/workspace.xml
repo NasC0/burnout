@@ -26,7 +26,7 @@
       <file leaf-file-name="poll_default.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/poll_default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="287" selection-end="287" vertical-scroll-proportion="0.23985891" vertical-offset="0" max-vertical-offset="8109">
+            <state line="156" column="44" selection-start="5524" selection-end="5524" vertical-scroll-proportion="0.5541958" vertical-offset="2335" max-vertical-offset="8568">
               <folding />
             </state>
           </provider>
@@ -35,10 +35,19 @@
       <file leaf-file-name="poll.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poll.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="64" selection-start="1495" selection-end="1495" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="1649">
+            <state line="9" column="65" selection-start="270" selection-end="270" vertical-scroll-proportion="-0.0" vertical-offset="153" max-vertical-offset="1683">
               <folding>
-                <marker date="1395606404005" expanded="true" signature="1277:1374" placeholder="INSERT INTO ..." />
+                <marker date="1395697465873" expanded="true" signature="1405:1502" placeholder="INSERT INTO ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbConfig.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/dbConfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="23" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,6 +66,7 @@
         <option value="$PROJECT_DIR$/templates/layout/default_layout.php" />
         <option value="$PROJECT_DIR$/css/lessStyles.less" />
         <option value="$PROJECT_DIR$/templates/index_default.php" />
+        <option value="$PROJECT_DIR$/includes/dbConfig.php" />
         <option value="$PROJECT_DIR$/poll.php" />
         <option value="$PROJECT_DIR$/templates/poll_default.php" />
       </list>
@@ -69,10 +79,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="130" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -157,6 +167,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burnout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burnout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,7 +290,7 @@
     <option name="totallyTimeSpent" value="310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="130" width="1364" height="726" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -274,7 +298,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2462908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -318,81 +342,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index_default.php">
+    <entry file="file://$PROJECT_DIR$/templates/poll_default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+        <state line="155" column="56" selection-start="5477" selection-end="5477" vertical-scroll-proportion="0.0" vertical-offset="2386" max-vertical-offset="8568">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="65" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1683">
+          <folding>
+            <marker date="1395697465873" expanded="true" signature="1405:1502" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/poll_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="14" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="8109">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="89" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+          <folding>
+            <marker date="1395697465873" expanded="true" signature="1405:1502" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/poll_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="8109">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="64" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1649">
+          <folding>
+            <marker date="1395697465873" expanded="true" signature="1405:1502" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/lessStyles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2686">
-          <folding />
-        </state>
+        <state line="11" column="14" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/default_layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="17" column="25" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2941">
-          <folding />
-        </state>
+        <state line="15" column="8" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2941" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/lessStyles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2686">
-          <folding />
-        </state>
+        <state line="6" column="6" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index_default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/default_layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="17" column="25" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
-          <folding />
-        </state>
+        <state line="15" column="8" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/lessStyles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2686">
-          <folding />
-        </state>
+        <state line="6" column="6" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index_default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/default_layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="17" column="25" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -407,9 +464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -424,9 +479,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -451,58 +504,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/lessStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/default_layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="610" selection-end="610" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="17" column="25" selection-start="610" selection-end="610" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/lessStyles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="12" selection-start="4001" selection-end="4001" vertical-scroll-proportion="-22.73077" vertical-offset="1789" max-vertical-offset="2686">
-          <folding />
-        </state>
+        <state line="140" column="12" selection-start="4001" selection-end="4001" vertical-scroll-proportion="-22.73077" vertical-offset="1789" max-vertical-offset="2686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="16" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2941">
-          <folding />
-        </state>
+        <state line="67" column="16" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2941" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index_default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
+        <state line="10" column="10" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="60" selection-start="226" selection-end="226" vertical-scroll-proportion="0.17056856" vertical-offset="0" max-vertical-offset="897">
+        <state line="9" column="60" selection-start="226" selection-end="226" vertical-scroll-proportion="0.17056856" vertical-offset="0" max-vertical-offset="897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/poll.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="64" selection-start="1495" selection-end="1495" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="1649">
+        <state line="9" column="65" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1683">
           <folding>
-            <marker date="1395606404005" expanded="true" signature="1277:1374" placeholder="INSERT INTO ..." />
+            <marker date="1395697465873" expanded="true" signature="1405:1502" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/poll_default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="287" selection-end="287" vertical-scroll-proportion="0.23985891" vertical-offset="0" max-vertical-offset="8109">
+        <state line="156" column="44" selection-start="5524" selection-end="5524" vertical-scroll-proportion="0.5541958" vertical-offset="2335" max-vertical-offset="8568">
           <folding />
         </state>
       </provider>

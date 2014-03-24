@@ -3,7 +3,9 @@
         var errorClassForLabel = 'errorForLabel';
         $("#wizard")
             .on("stephide", "fieldset", function () {
-                if (!$(this).find(":input").valid())
+                if (!$(this).find(":input").valid()) {
+                    return false;
+                }
             })
             .jWizard({
                 buttons: {
@@ -39,8 +41,8 @@
                     });
                 },
                 submitHandler: function (form) {
-                        alert("Благодарим ви,че участвахте в нашата анкета!");
-                        form.submit();
+                    alert("Благодарим ви,че участвахте в нашата анкета!");
+                    form.submit();
                 }
             });
         $('#Demographic3').keyup().blur(function () {
@@ -150,8 +152,8 @@ if ($countFieldest == 1) {
 
             ?>
             <div class="inside-field-wrap-third">
-                <input type="radio" id="<?= 'Radio' . $labelCOunt ?>" name="<?= 'Q' . $questionKey ?>"
-                       value="<?= $answerKey ?>" required>
+                <input type="radio" id="<?= 'Radio' . $labelCOunt ?>" required name="<?= 'Q' . $questionKey ?>"
+                       value="<?= $answerKey ?>">
                 <label for="<?= 'Radio' . $labelCOunt ?>">
                     <?= $answerKey ?> </label>
             </div>
@@ -377,23 +379,27 @@ if ($countFieldest == 1) {
     <div class="inside-demographic-wrap-second">
         <div class="demographic-third">
             <input type="radio" id="Demographic41" name="D8" value="1" required>
-            <label for="Demographic41">Веднъж дневно</label>
+            <label for="Demographic41">Учащ/ученик или студент</label>
         </div>
         <div class="demographic-third">
             <input type="radio" id="Demographic42" name="D8" value="2" required>
-            <label for="Demographic42">2-3 пъти седмично</label>
+            <label for="Demographic42">Работещ на половин работен ден</label>
         </div>
         <div class="demographic-third">
             <input type="radio" id="Demographic43" name="D8" value="3" required>
-            <label for="Demographic43">Веднъж седмично</label>
+            <label for="Demographic43">Работещ на пълен работен ден</label>
         </div>
         <div class="demographic-third">
             <input type="radio" id="Demographic44" name="D8" value="4" required>
-            <label for="Demographic44">По-рядко от веднъж седмично</label>
+            <label for="Demographic44">Безработен</label>
         </div>
         <div class="demographic-third">
             <input type="radio" id="Demographic45" name="D8" value="5" required>
-            <label for="Demographic45">Не се занимавам с такива дейности</label>
+            <label for="Demographic45">Домакиня/по майчинство</label>
+        </div>
+        <div class="demographic-third">
+            <input type="radio" id="Demographic46" name="D8" value="6" required>
+            <label for="Demographic46">Пенсионер</label>
         </div>
     </div>
 </fieldset>
@@ -403,24 +409,24 @@ if ($countFieldest == 1) {
     </div>
     <div class="inside-demographic-wrap-second">
         <div class="demographic-third">
-            <input type="radio" id="Demographic46" name="D9" value="1" required>
-            <label for="Demographic46">До 500 лв</label>
+            <input type="radio" id="Demographic47" name="D9" value="1" required>
+            <label for="Demographic47">До 500 лв</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic47" name="D9" value="2" required>
-            <label for="Demographic47">500-1000 лв</label>
+            <input type="radio" id="Demographic48" name="D9" value="2" required>
+            <label for="Demographic48">500-1000 лв</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic48" name="D9" value="3" required>
-            <label for="Demographic48">1500-2000 лв</label>
+            <input type="radio" id="Demographic49" name="D9" value="3" required>
+            <label for="Demographic49">1500-2000 лв</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic49" name="D9" value="4" required>
-            <label for="Demographic49">2000-2500 лв</label>
+            <input type="radio" id="Demographic50" name="D9" value="4" required>
+            <label for="Demographic50">2000-2500 лв</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic50" name="D9" value="5" required>
-            <label for="Demographic50">Над 2500 лв</label>
+            <input type="radio" id="Demographic51" name="D9" value="5" required>
+            <label for="Demographic51">Над 2500 лв</label>
         </div>
     </div>
 </fieldset>
@@ -430,20 +436,31 @@ if ($countFieldest == 1) {
     </div>
     <div class="inside-demographic-wrap-second">
         <div class="demographic-third">
-            <input type="radio" id="Demographic51" name="D10" value="1" required>
-            <label for="Demographic51">Разработка</label>
+            <input type="radio" id="Demographic52" name="D10" value="1" required>
+            <label for="Demographic52">Генерални директори, собственици на голям бизнес, президенти на фирми, ръководещи повече от 30 човека. Професионалисти на върха на своята професия, която изисква високо образование.;</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic52" name="D10" value="2" required>
-            <label for="Demographic52">Мениджмънт</label>
+            <input type="radio" id="Demographic53" name="D10" value="2" required>
+            <label for="Demographic53">Доктори, адвокати, архитекти, университетски преподаватели и всички други, които имат нужда от висше образование  в тяхната професия. Ръководители, които пряко имат 4 – 29 подчинени.</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic53" name="D10" value="3" required>
-            <label for="Demographic53">Маркетинг и продажби</label>
+            <input type="radio" id="Demographic54" name="D10" value="3" required>
+            <label for="Demographic54">Духовни лица, супервайзери / координатори/, собственици на малък бизнес до 4 човека, ръководители на малки отдели с до 4 подчинени, студенти и всички други, занимаващи се с не-физически труд, които не са класирани в категории А и В. Учители, програмисти, търговци и т.н.</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic54" name="D10" value="4" required>
-            <label for="Demographic54">Freelancer (на свободна практика)</label>
+            <input type="radio" id="Demographic55" name="D10" value="4" required>
+            <label for="Demographic55">Занимаващи се с физически труд, които имат нужда от някакъв вид образование и
+                квалификация за упражняване на тяхната професия (без шофьорска книжка или други общи квалификации). Занаятчии, полицаи, строители, хлебари, готвачи, фризьори, шофьори, шофьори на автобуси, медицински сестри, детегледачки, пожарникари.</label>
+        </div>
+        <div class="demographic-third">
+            <input type="radio" id="Demographic56" name="D10" value="5" required>
+            <label for="Demographic56">Практикуващи физически труд, не-изискващ квалификация. Продавачи, келнери,
+                работници, кондуктори, шофьори на такси, работници на поточна линия.</label>
+        </div>
+        <div class="demographic-third">
+            <input type="radio" id="Demographic57" name="D10" value="6" required>
+            <label for="Demographic57">Пенсионери без допълнителни доходи, безработни от повече от 6 месеца,
+                всички останали, разчитащи основно на социални осигуровки.</label>
         </div>
     </div>
 </fieldset>
@@ -453,16 +470,26 @@ if ($countFieldest == 1) {
     </div>
     <div class="inside-demographic-wrap-second">
         <div class="demographic-third">
-            <input type="radio" id="Demographic55" name="D11" value="1" required>
-            <label for="Demographic55">По-малко от година</label>
+            <input type="radio" id="Demographic58" name="D11" value="1" required>
+            <label for="Demographic58">По-малко от година</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic56" name="D11" value="2" required>
-            <label for="Demographic56">1-3 години</label>
+            <input type="radio" id="Demographic59" name="D11" value="2" required>
+            <label for="Demographic59">1-3 години</label>
         </div>
         <div class="demographic-third">
-            <input type="radio" id="Demographic57" name="D11" value="3" required>
-            <label for="Demographic57">Над 3 години</label>
+            <input type="radio" id="Demographic60" name="D11" value="3" required>
+            <label for="Demographic60">Над 3 години</label>
+        </div>
+    </div>
+</fieldset>
+<fieldset class="field-wrapper">
+    <div class="inside-demographic-wrap-first">
+        <span><?= $content['demographicKeys'][11]; ?>. <?= $content['demographic'][12] ?></span>
+    </div>
+    <div class="inside-demographic-wrap-second">
+        <div class="demographic-third">
+            <input type="text" id="Demographic61" name="D12" required/>
         </div>
     </div>
 </fieldset>

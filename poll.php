@@ -6,12 +6,14 @@ if(isset($_POST) && !empty($_POST)) {
 
     header("Location: index.php");
 
+    $referer = $conn->real_escape_string($_POST['D12']);
     // First, insert the participant information into the database
     $insertParticipant = 'INSERT INTO participants (gender, age, housekeep, housekeep_count, education, location,
-    income, exercise, income_scale, occupation, duration)
+    income, occupation_type, income_scale, occupation, duration, reference)
                           VALUES ('. $_POST['D1'] .', '. $_POST['D2'] .', '. $_POST['D3'] .', '. $_POST['D4'] .',
                           '. $_POST['D5'] .', '. $_POST['D6'] .', '. $_POST['D7'] .', '. $_POST['D8'] .',
-                          '. $_POST['D9'] .', '. $_POST['D10'] .', '. $_POST['D11']. ')';
+                          '. $_POST['D9'] .', '. $_POST['D10'] .', '. $_POST['D11']. ',
+                          '. '"'. $referer . '"'. ')';
 
     $insertParticipantResult = $conn->query($insertParticipant);
 
@@ -20,7 +22,7 @@ if(isset($_POST) && !empty($_POST)) {
         $participantID = $conn->insert_id;
         $questionsArray = $_POST;
 
-        for($i = 1; $i < 12; $i++) {
+        for($i = 1; $i < 13; $i++) {
             $checkKey = 'D'.$i;
             if(array_key_exists($checkKey, $questionsArray)) {
                 unset($questionsArray[$checkKey]);
